@@ -1,5 +1,5 @@
 {
-  "name": "mimas",
+  "name": "@jcblw/mimas",
   "version": "0.1.0",
   "description": "a zero config server experiment",
   "main": "index.js",

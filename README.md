@@ -10,7 +10,7 @@ Have a module build a server and require a directory to load all paths and middl
 
 eg.
 ```javascript
-const {get} = require('mimas')
+const {get} = require('@jsblw/mimas')
 
 get('/', (req, res) => {
   res.end('Hello Mimas')
