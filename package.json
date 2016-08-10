@@ -1,0 +1,31 @@
+{
+  "name": "mimas",
+  "version": "0.1.0",
+  "description": "a zero config server experiment",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcblw/mimas.git"
+  },
+  "keywords": [
+    "server",
+    "directory",
+    "routes"
+  ],
+  "author": "Jacob Lowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcblw/mimas/issues"
+  },
+  "homepage": "https://github.com/jcblw/mimas#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "finalhandler": "^0.5.0",
+    "invariant": "^2.2.1",
+    "require-directory": "^2.1.1",
+    "router": "^1.1.4"
+  }
+}
