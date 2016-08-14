@@ -8,7 +8,7 @@ Have a module build a server and require a directory to load all paths and middl
 
 eg.
 ```javascript
-const {get} = require('@jsblw/mimas')
+const {get} = require('@jcblw/mimas')
 
 get('/', (req, res) => {
   res.end('Hello Mimas')
@@ -20,5 +20,5 @@ I should just be able to throw this into my `./server` directory and `mimas` sho
 To start this currently do.
 
 ```shell
-node -r @jsblw/mimas index.js
+node -r @jcblw/mimas index.js
 ```
