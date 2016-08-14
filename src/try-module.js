@@ -1,7 +1,7 @@
 const path = require('path')
 const invariant = require('invariant')
 
-module.exports = ({cwd}) => moduleName => {
+module.exports = ({cwd = ''}) => moduleName => {
   const pathName = path.resolve(cwd, moduleName)
   let module
   try {
