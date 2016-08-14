@@ -22,5 +22,5 @@ I should just be able to throw this into my `./server` directory and `mimas` sho
 To start this currently do.
 
 ```shell
-node -r mimas index.js
+node -r @jsblw/mimas index.js
 ```
