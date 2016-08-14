@@ -2,6 +2,8 @@
 
 A moon of saturn 🌚 and a zero config server experiment.
 
+[![Build Status](https://travis-ci.org/jcblw/mimas.svg?branch=master)](https://travis-ci.org/jcblw/mimas)
+
 ## The idea
 
 Have a module build a server and require a directory to load all paths and middleware.
