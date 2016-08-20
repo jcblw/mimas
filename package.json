@@ -4,7 +4,7 @@
   "description": "a zero config server experiment",
   "main": "index.js",
   "scripts": {
-    "test": "standard && ava",
+    "test": "standard && nyc ava",
     "example-server": "cd example && node -r ../index.js ./index.js"
   },
   "repository": {
@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "ava": "^0.16.0",
+    "nyc": "^8.1.0",
     "standard": "^7.1.2"
   },
   "bin": {
