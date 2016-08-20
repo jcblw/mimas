@@ -22,5 +22,15 @@ I should just be able to throw this into my `./server` directory and `mimas` sho
 To start this currently do.
 
 ```shell
-node -r @jcblw/mimas index.js
+mimas
+```
+
+It is perffered you install this module locally and use `npm scripts` to access the bin.
+
+```json
+...
+"scripts": {
+  "start": "mimas"
+}
+...
 ```
