@@ -34,6 +34,9 @@
     "ava": "^0.16.0",
     "standard": "^7.1.2"
   },
+  "bin": {
+    "mimas": "./bin/mimas"
+  },
   "mimas": {
     "middleware": [
       "./server/middleware"
