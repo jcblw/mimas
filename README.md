@@ -1,5 +1,7 @@
 # Mimas
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/mimas.svg)](https://greenkeeper.io/)
+
 A moon of saturn 🌚 and a zero config server experiment.
 
 [![Build Status](https://travis-ci.org/jcblw/mimas.svg?branch=master)](https://travis-ci.org/jcblw/mimas)
